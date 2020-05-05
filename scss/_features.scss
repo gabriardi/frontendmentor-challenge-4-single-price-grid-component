@@ -1,0 +1,12 @@
+.features {
+  background-color: $color-primary-cyan-light;
+  color: #fff;
+
+  &__list {
+    list-style: none;
+    &__item {
+      color: $color-neutral-light;
+      margin-bottom: 0.3rem;
+    }
+  }
+}

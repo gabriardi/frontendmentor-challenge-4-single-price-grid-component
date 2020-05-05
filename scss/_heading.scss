@@ -1,0 +1,17 @@
+.heading {
+  background-color: #fff;
+  &__primary {
+    color: $color-primary-cyan;
+  }
+  &__secondary {
+    color: $color-primary-yellow;
+  }
+  &__paragraph {
+    color: $color-neutral-dark;
+    line-height: 2;
+  }
+
+  @media only screen and (min-width: $bp-medium) {
+    grid-column: 1/-1;
+  }
+}

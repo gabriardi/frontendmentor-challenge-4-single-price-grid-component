@@ -1,0 +1,43 @@
+.cta {
+  background-color: $color-primary-cyan;
+  color: #fff;
+
+  &__price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.1rem;
+    strong {
+      font-size: 3rem;
+      margin-right: 1rem;
+    }
+    span {
+      color: $color-neutral-light;
+      opacity: 0.8;
+    }
+  }
+  &__description {
+    margin-bottom: 4rem;
+  }
+  &__btn {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: inherit;
+    background-color: $color-primary-yellow;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(#000, 0.25);
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: darken($color-primary-yellow, 6);
+    }
+    &:active {
+      transform: translateY(0.2rem);
+      box-shadow: 0 1rem 1rem rgba(#000, 0.25);
+    }
+  }
+}
